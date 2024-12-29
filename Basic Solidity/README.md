@@ -17,3 +17,17 @@
 
   }
   ```
+
+### Types and Declaring Variables
+
+- Int Types:
+
+  1. int
+  2. uint
+
+  - Example declaring int variables
+
+    ```solidity
+    uint256 favoriteNumber = 5;
+    int256 favoriteNumber2 = 6;
+    ```
