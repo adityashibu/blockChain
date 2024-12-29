@@ -94,7 +94,7 @@ Define a function using the `function` keyword, then inside the rounded brackets
 
 - Types of functions that don't require a transaction to occur
   - view: View a certain state in the blockchain
-  - pure: Purely do some computation
+  - pure: Purely do some computation or mathematical calculation
 
 ### Types of visibilities in Solidity
 
