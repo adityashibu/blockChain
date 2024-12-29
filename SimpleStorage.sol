@@ -9,4 +9,7 @@ contract SimpleStorage {
 
     // Define boolean variable
     bool favoriteBool = true;
+
+    // Define string variable
+    string favoriteString = "String";
 }
