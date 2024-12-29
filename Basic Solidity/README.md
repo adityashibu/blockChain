@@ -115,8 +115,29 @@ Create a struct using the keyword `struct`
 
   ```solidity
   struct name {
-
+    type name;
   }
+  ```
+
+- For example
+
+  ```solidity
+  struct People {
+      uint256 favoriteNumber;
+      string name;
+  }
+  ```
+
+  and can be initialized using the syntax
+
+  ```solidity
+  structName visibility name = structName({Struct params})
+  ```
+
+- For example
+
+  ```solidity
+  People public person = People({favoriteNumber: 2, name: "Aditya"})
   ```
 
   Structs are a way to create an object in Solidity
