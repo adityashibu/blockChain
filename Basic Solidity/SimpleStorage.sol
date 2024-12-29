@@ -35,4 +35,7 @@ contract SimpleStorage {
     function retrieve() public view returns (uint256) {
         return favoriteNumber;
     }
+
+    // Defining an array
+    People[] public people;
 }
