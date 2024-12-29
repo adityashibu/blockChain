@@ -7,6 +7,12 @@ contract SimpleStorage {
     // Define unsigned integer variable
     uint256 favoriteNumber;
 
+    // Create a struct to define a person
+    struct People {
+        uint256 favoriteNumber;
+        string name;
+    }
+
     // Define boolean variable
     bool favoriteBool = true;
 

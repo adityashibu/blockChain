@@ -106,3 +106,17 @@ Define a function using the `function` keyword, then inside the rounded brackets
   - Functions and state variables that can only be accessed internally
 - Private
   - Functions and state variables that are only visible for the contract they are defined in and not in derived contracts
+
+### Creating Structs
+
+Create a struct using the keyword `struct`
+
+- Example Syntax
+
+  ```solidity
+  struct name {
+
+  }
+  ```
+
+  Structs are a way to create an object in Solidity
