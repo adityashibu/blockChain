@@ -63,3 +63,21 @@
     ```solidity
     bytes32 favoriteBytes = "cat";
     ```
+
+### Creating Functions
+
+Define a function using the `function` keyword, then inside the rounded brackets, define the type of parameters it will be taking
+
+- Example Syntax
+
+  ```solidity
+  function name(type1 parameterName) functiontype {
+
+  }
+  ```
+
+  Where:
+
+  1. name -> This is the function name to call the function
+  2. parameterName -> Name to refer to the parameter inside the function
+  3. functionType -> The type of function, example public, private, etc.
