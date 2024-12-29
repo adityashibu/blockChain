@@ -21,4 +21,9 @@ contract SimpleStorage {
         // Set the favorite number to the input value
         favoriteNumber = _favoriteNumber;
     }
+
+    // Defining a function to retrieve the favorite number
+    function retrieve() public view returns (uint256) {
+        return favoriteNumber;
+    }
 }

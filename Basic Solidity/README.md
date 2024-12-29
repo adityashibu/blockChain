@@ -84,6 +84,13 @@ Define a function using the `function` keyword, then inside the rounded brackets
 
   **To make a variable viewable, add the `public` keyword**
 
+- Example syntax for a function that returns a value
+  ```solidity
+  function name(type1 parameter) functionType returns(type) {
+
+  }
+  ```
+
 ### Types of visibilities in Solidity
 
 - External
