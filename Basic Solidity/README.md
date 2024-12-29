@@ -83,3 +83,14 @@ Define a function using the `function` keyword, then inside the rounded brackets
   3. functionType -> The type of function, example public, private, etc.
 
   **To make a variable viewable, add the `public` keyword**
+
+### Types of visibilities in Solidity
+
+- External
+  - Functions that are part of the contract interface, which means it can be called from other contracts and via transactions
+- Public
+  - Functions that are part of the contract information that can either be called internally or via messages
+- Internal
+  - Functions and state variables that can only be accessed internally
+- Private
+  - Functions and state variables that are only visible for the contract they are defined in and not in derived contracts
