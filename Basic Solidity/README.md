@@ -20,7 +20,7 @@
 
 ### Types and Declaring Variables
 
-- Int Types:
+- Integer Types:
 
   1. int
   2. uint
@@ -30,4 +30,15 @@
     ```solidity
     uint256 favoriteNumber = 5;
     int256 favoriteNumber2 = 6;
+    ```
+
+- Boolean Types:
+
+  1. true
+  2. false
+
+  - Example declaring bool variables
+    ```solidity
+    bool favoriteBool = true;
+    bool favoriteBool2 = false;
     ```
