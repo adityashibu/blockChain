@@ -54,5 +54,12 @@
 
   - Example declaring wallet addresses
     ```solidity
-    address favoriteString = 0xEB0C816b0529bCF9455e6Db2Ad26f7165B322a4b;
+    address favoriteAddress = 0xEB0C816b0529bCF9455e6Db2Ad26f7165B322a4b;
+    ```
+
+- Bytes:
+
+  - Example declaring bytes
+    ```solidity
+    bytes32 favoriteBytes = "cat";
     ```
