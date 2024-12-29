@@ -6,4 +6,7 @@ pragma solidity ^0.8.0;
 contract SimpleStorage {
     // Define unsigned integer variable
     uint256 favoriteNumber = 5;
+
+    // Define boolean variable
+    bool favoriteBool = true;
 }

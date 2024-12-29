@@ -42,3 +42,10 @@
     bool favoriteBool = true;
     bool favoriteBool2 = false;
     ```
+
+- Strings:
+
+  - Example declaring strings
+    ```solidity
+    string favoriteString = true;
+    ```
