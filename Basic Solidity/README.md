@@ -151,3 +151,10 @@ Create an array for a certain type by following the type with [] brackets
   int256[size] public favoriteNumberList;
   ```
   Where the size of the array is optional, if passed in then it creates a fixed array that can only hold size number of elements while if nothing is passed in then it creates a dynamic array that expands according to the need
+
+### Types of ways to store data in Solidity
+
+1. Memory
+   - Data will only be stored during the execution of the function
+2. Storage
+   - Data will persist even after the execution of the function
