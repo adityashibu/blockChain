@@ -13,6 +13,9 @@ contract SimpleStorage {
         string name;
     }
 
+    // Create a new person
+    People public person = People({favoriteNumber: 2, name: "Aditya"});
+
     // Define boolean variable
     bool favoriteBool = true;
 
