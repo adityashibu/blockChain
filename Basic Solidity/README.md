@@ -8,7 +8,7 @@
     pragma solidity ^0.x.x
   ```
 
-## Defining Contracts should start by using the keyword `contract`
+### Defining Contracts should start by using the keyword `contract`
 
 - Example Syntax
 
